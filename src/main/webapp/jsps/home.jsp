@@ -26,7 +26,7 @@
 <body>
 <h1 align="center">Welcome to this sample app </h1>
 <h1 align="center">This is for sample deployment purpose</h1>
-<!-- <h2>HTML Table</h2>
+<h2>HTML Table</h2>
 
 <table>
   <tr>
@@ -49,22 +49,7 @@
     <td>Roland Mendel</td>
     <td>Austria</td>
   </tr>
-  <tr>
-    <td>Island Trading</td>
-    <td>Helen Bennett</td>
-    <td>UK</td>
-  </tr>
-  <tr>
-    <td>Laughing Bacchus Winecellars</td>
-    <td>Yoshi Tannamuri</td>
-    <td>Canada</td>
-  </tr>
-  <tr>
-    <td>Magazzini Alimentari Riuniti</td>
-    <td>Giovanni Rovelli</td>
-    <td>Italy</td>
-  </tr>
-</table> -->
+</table>
 <hr>
 <br>
 	<h1><h3> Server Side IP Address </h3><br>
