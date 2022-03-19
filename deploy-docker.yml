@@ -18,5 +18,5 @@
         image: "lekkalaramana/sample-web-application:{{BUILD_NUMBER}}"
         name: sampeapp
         published_ports: 
-          - "0.0.0.0:7070:8080"
+          - 0.0.0.0:9090:8080
         state: started
