@@ -5,8 +5,6 @@ metadata:
 spec:
   revisionHistoryLimit: 10
   replicas: 2
-  strategy:
-    type: Recreate
   selector:
     matchLabels:
       app: samplewebapp
@@ -18,7 +16,7 @@ spec:
     spec:
       containers:
         - name: samplewebappcontainer
-          image: lekkalaramana/sample-web-application:TAG
+          image: lekkalaramana/sample-web-application:{{BUILD_NUMBER}}
           ports:
             - containerPort: 8080
           resources:
@@ -32,10 +30,10 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: mavenwebappsvc
+  name: samplewebappsvc
 spec:
   selector:
-    app: mavenwebapp
+    app: samplewebapp
   type: NodePort
   ports:
   - port: 80
