@@ -1,5 +1,5 @@
 --- 
-- hosts: masternode
+- hosts: localhost
   become: true
   vars:
     build_number: "{{BUILD_NUMBER}}"
