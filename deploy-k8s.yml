@@ -1,0 +1,9 @@
+--- 
+- hosts: masternode
+  become: true
+  vars:
+    build_number: "{{BUILD_NUMBER}}"
+  tasks:  
+    - 
+      name: Creating k8s deployment
+      command: kubectl apply -f samplewebappdeployment.yaml
