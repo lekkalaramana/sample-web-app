@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: samplewebappcontainer
-          image: lekkalaramana/sample-web-application:latest
+          image: "lekkalaramana/sample-web-application:18"
           ports:
             - containerPort: 8080
 ---
