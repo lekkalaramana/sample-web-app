@@ -1,4 +1,4 @@
 [dev]
 172.31.47.64
 [localhost]
-localhost
+localhost ansible_connection=local
