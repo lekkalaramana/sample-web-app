@@ -1,6 +1,5 @@
 --- 
 - hosts: localhost
-  sudo: true
   become: true
   vars:
     build_number: "{{BUILD_NUMBER}}"
@@ -8,3 +7,4 @@
     - 
       name: Creating k8s deployment
       command: kubectl apply -f samplewebappdeployment.yaml
+      become_user: jenkins
