@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: javawebappcontainer
-          image: lekkalaramana/java-web-application:latest
+          image: lekkalaramana/java-docker-k8s:latest
           ports:
             - containerPort: 8080
 ---
