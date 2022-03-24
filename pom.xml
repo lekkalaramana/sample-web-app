@@ -3,11 +3,11 @@
 	<modelVersion>4.0.0</modelVersion>
 	
 	<groupId>com.mt</groupId>
-	<artifactId>sample-web-application</artifactId>
+	<artifactId>java-web-application</artifactId>
 	<packaging>war</packaging>
 	<version>0.0.1-SNAPSHOT</version>
 	
-	<name>sample-web-application</name>
+	<name>java-web-application</name>
 
 	<description>sample Web Project for Java Project</description>
 
@@ -110,7 +110,7 @@
 	</distributionManagement>
 	
 	<build>
-		<finalName>sample-web-application</finalName>
+		<finalName>java-web-application</finalName>
 		
 		<plugins>
 			<plugin>
@@ -143,7 +143,7 @@
 					<downloadSources>true</downloadSources>
 					<downloadJavadocs>true</downloadJavadocs>
 					<wtpversion>2.0</wtpversion>
-					<wtpContextName>sample-web-application</wtpContextName>
+					<wtpContextName>java-web-application</wtpContextName>
 				</configuration>
 			</plugin>
 			
