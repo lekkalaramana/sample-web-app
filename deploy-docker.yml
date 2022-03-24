@@ -15,8 +15,8 @@
     - 
       name: "Start the container"
       docker_container: 
-        image: "lekkalaramana/sample-web-application:{{BUILD_NUMBER}}"
-        name: sampeapp
+        image: "lekkalaramana/java-web-application:{{BUILD_NUMBER}}"
+        name: javaapp
         published_ports: 
           - 0.0.0.0:9090:8080
         state: started
