@@ -4,5 +4,5 @@
   tasks:  
     - 
       name: Creating k8s deployment
-      command: kubectl apply -f samplewebappdeployment.yaml
+      command: kubectl apply -f /var/lib/jenkins/workspace/docker-k8s-app/samplewebappdeployment.yaml
       become_user: jenkins
