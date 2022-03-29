@@ -26,7 +26,8 @@ pipeline {
         }
         stage('Docker image deployment') {
             steps {
-                ansiblePlaybook credentialsId: 'sshConnection', disableHostKeyChecking: true, extras: '-e BUILD_NUMBER=${BUILD_NUMBER}', installation: 'ansible', inventory: 'dev.inv', playbook: 'deploy-docker.yml'
+                ansiblePlaybook credentialsId: 'DockerDevServerSSH', disableHostKeyChecking: true, extras: -e BUILD_NUMBER=${BUILD_NUMBER}',
+				              installation: 'ansible', inventory: 'dev.inv', playbook: 'deploy-docker.yml'
             }
         }
     }
